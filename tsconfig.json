@@ -1,0 +1,23 @@
+{
+  "compilerOptions": {
+    "outDir": "./dist",
+    "rootDir": "./src",
+    "lib": ["ESNext"],
+    "target": "ESNext", // Especifica el estándar de JavaScript
+    "moduleResolution": "nodenext", // Especifica cómo se resuelven los módulos
+    "module": "NodeNext",
+    "sourceMap": true, // Genera archivos de mapa de origen
+    "strict": true, // Habilita todas las verificaciones estrictas
+    "esModuleInterop": true, // Habilita la interoperabilidad con módulos ES
+    "skipLibCheck": true, // Omite la verificación de tipos de archivos de declaración
+    "declaration": false, // Genera archivos de declaración
+    "forceConsistentCasingInFileNames": true // Fuerza el uso consistente de mayúsculas y minúsculas en los nombres de archivo
+  },
+  "include": [
+    "src/**/*.ts" // Incluye todos los archivos en la carpeta src
+  ],
+  "exclude": [
+    "node_modules", // Excluye la carpeta node_modules
+    "dist" // Excluye la carpeta dist
+  ]
+}
